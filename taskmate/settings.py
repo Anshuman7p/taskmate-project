@@ -22,7 +22,7 @@ SECRET_KEY = env('DJANGO_SECRET_KEY')
 DEBUG = env('DJANGO_DEBUG')
 
 ALLOWED_HOSTS = ["localhost", "127.0.0.1", "taskmate-project.onrender.com"]
-CSRF_TRUSTED_ORIGINS = ['taskmate-project.onrender.com']
+CSRF_TRUSTED_ORIGINS = ['https://taskmate-project.onrender.com']
 
 
 # Application definition
