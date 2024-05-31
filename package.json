@@ -1,5 +1,12 @@
 {
-    "name": "my-awesome-package",
-    "version": "1.0.0",
-    "author": "Your Name <email@example.com>"
+  "name": "django-frontend",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "react-scripts build"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3"
   }
+}

@@ -1,8 +1,6 @@
 [build]
-  command = "npm run build"
-  publish = "taskmate"  # This should be relative to the base directory
+  command = "npm run build && python manage.py collectstatic --noinput"
+  publish = "build"
 
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+[[plugins]]
+  package = "netlify-plugin-django"
